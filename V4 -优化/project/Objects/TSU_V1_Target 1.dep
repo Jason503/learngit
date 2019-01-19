@@ -1,0 +1,922 @@
+Dependencies for Project 'TSU_V1', Target 'Target 1': (DO NOT MODIFY !)
+F (..\user\main.c)(0x5C3E8E20)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\user\s32k_conf.h)(0x5C1B38E7)
+I (..\drivers\inc\interrupt_manager.h)(0x5955F2D2)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (..\drivers\inc\clock_manager.h)(0x5C0E0FA8)
+I (..\devices\status.h)(0x5955F2D2)
+I (..\drivers\inc\../src/clock/S32K1xx/clock_S32K1xx.h)(0x5955F2D2)
+I (..\drivers\src\pins\pins_gpio_hw_access.h)(0x5955F2D2)
+I (..\drivers\inc\pins_driver.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\drivers\src\pins\pins_port_hw_access.h)(0x5C0E0A50)
+I (..\user\s32k.h)(0x5C186C84)
+I (..\drivers\inc\lpuart_driver.h)(0x5C0DD305)
+I (..\pal\osif\osif.h)(0x598CA364)
+I (..\devices\callbacks.h)(0x5955F2D2)
+I (..\drivers\src\lpuart\lpuart_hw_access.h)(0x5C171688)
+I (..\user\clockMan1.h)(0x5C1B3A31)
+I (..\user\pin_mux.h)(0x5C1068B8)
+I (..\user\uart.h)(0x5C2DB237)
+I (..\user\I2C.h)(0x5C18575F)
+I (..\user\lpi2c1.h)(0x5C1856E2)
+I (..\drivers\inc\lpi2c_driver.h)(0x5C1764E2)
+I (..\drivers\inc\edma_driver.h)(0x5955F2D2)
+I (..\user\fly_can.h)(0x5C22E382)
+I (..\user\canCom1.h)(0x5C22D950)
+I (..\user\dmaController1.h)(0x5C1B12C5)
+I (..\user\Cpu.h)(0x5C1B12E7)
+I (..\drivers\inc\csec_driver.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\drivers\inc\flexcan_driver.h)(0x5C2D77C2)
+I (..\user\timer.h)(0x5C0F82AE)
+I (..\user\Androidcom.h)(0x5C1203FC)
+I (..\user\TBT.h)(0x5C2DBC52)
+I (D:\keil5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+F (..\devices\startup.c)(0x596EAC8C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\startup.o --omf_browse .\objects\startup.crf --depend .\objects\startup.d)
+I (..\devices\startup.h)(0x5955F2D2)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+F (..\devices\S32K144\startup\system_S32K144.c)(0x5955F2A0)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\system_s32k144.o --omf_browse .\objects\system_s32k144.crf --depend .\objects\system_s32k144.d)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+F (..\devices\S32K144\startup\arm\startup_S32K144.s)(0x59561CDE)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices--pd "__UVISION_VERSION SETA 526" --pd "_RTE_ SETA 1" --pd "CPU_S32K144HFT0VLLT SETA 1"--list .\listings\startup_s32k144.lst --xref -o .\objects\startup_s32k144.o --depend .\objects\startup_s32k144.d)
+F (..\user\s32k.c)(0x5C186C87)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\s32k.o --omf_browse .\objects\s32k.crf --depend .\objects\s32k.d)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (D:\keil5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\user\s32k.h)(0x5C186C84)
+I (..\user\s32k_conf.h)(0x5C1B38E7)
+I (..\drivers\inc\interrupt_manager.h)(0x5955F2D2)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (..\drivers\inc\clock_manager.h)(0x5C0E0FA8)
+I (..\devices\status.h)(0x5955F2D2)
+I (..\drivers\inc\../src/clock/S32K1xx/clock_S32K1xx.h)(0x5955F2D2)
+I (..\drivers\src\pins\pins_gpio_hw_access.h)(0x5955F2D2)
+I (..\drivers\inc\pins_driver.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\drivers\src\pins\pins_port_hw_access.h)(0x5C0E0A50)
+I (..\pal\osif\osif.h)(0x598CA364)
+I (..\drivers\inc\lpuart_driver.h)(0x5C0DD305)
+I (..\devices\callbacks.h)(0x5955F2D2)
+I (..\drivers\src\lpuart\lpuart_hw_access.h)(0x5C171688)
+I (..\user\clockMan1.h)(0x5C1B3A31)
+I (..\user\pin_mux.h)(0x5C1068B8)
+I (..\user\uart.h)(0x5C2DB237)
+I (..\user\I2C.h)(0x5C18575F)
+I (..\user\lpi2c1.h)(0x5C1856E2)
+I (..\drivers\inc\lpi2c_driver.h)(0x5C1764E2)
+I (..\drivers\inc\edma_driver.h)(0x5955F2D2)
+I (..\user\fly_can.h)(0x5C22E382)
+I (..\user\canCom1.h)(0x5C22D950)
+I (..\user\dmaController1.h)(0x5C1B12C5)
+I (..\user\Cpu.h)(0x5C1B12E7)
+I (..\drivers\inc\csec_driver.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\drivers\inc\flexcan_driver.h)(0x5C2D77C2)
+F (..\user\timer.c)(0x5C1999C7)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (..\drivers\inc\interrupt_manager.h)(0x5955F2D2)
+I (..\user\s32k_conf.h)(0x5C1B38E7)
+I (..\drivers\inc\clock_manager.h)(0x5C0E0FA8)
+I (..\devices\status.h)(0x5955F2D2)
+I (..\drivers\inc\../src/clock/S32K1xx/clock_S32K1xx.h)(0x5955F2D2)
+I (..\drivers\src\pins\pins_gpio_hw_access.h)(0x5955F2D2)
+I (..\drivers\inc\pins_driver.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\drivers\src\pins\pins_port_hw_access.h)(0x5C0E0A50)
+I (..\user\s32k.h)(0x5C186C84)
+I (..\drivers\inc\lpuart_driver.h)(0x5C0DD305)
+I (..\pal\osif\osif.h)(0x598CA364)
+I (..\devices\callbacks.h)(0x5955F2D2)
+I (..\drivers\src\lpuart\lpuart_hw_access.h)(0x5C171688)
+I (..\user\clockMan1.h)(0x5C1B3A31)
+I (..\user\pin_mux.h)(0x5C1068B8)
+I (..\user\uart.h)(0x5C2DB237)
+I (..\user\I2C.h)(0x5C18575F)
+I (..\user\lpi2c1.h)(0x5C1856E2)
+I (..\drivers\inc\lpi2c_driver.h)(0x5C1764E2)
+I (..\drivers\inc\edma_driver.h)(0x5955F2D2)
+I (..\user\fly_can.h)(0x5C22E382)
+I (..\user\canCom1.h)(0x5C22D950)
+I (..\user\dmaController1.h)(0x5C1B12C5)
+I (..\user\Cpu.h)(0x5C1B12E7)
+I (..\drivers\inc\csec_driver.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\drivers\inc\flexcan_driver.h)(0x5C2D77C2)
+I (..\user\timer.h)(0x5C0F82AE)
+F (..\drivers\src\clock\clock_manager.c)(0x5C170014)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\clock_manager.o --omf_browse .\objects\clock_manager.crf --depend .\objects\clock_manager.d)
+I (..\drivers\inc\interrupt_manager.h)(0x5955F2D2)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\drivers\inc\clock_manager.h)(0x5C0E0FA8)
+I (..\devices\status.h)(0x5955F2D2)
+I (..\drivers\inc\../src/clock/S32K1xx/clock_S32K1xx.h)(0x5955F2D2)
+F (..\drivers\src\clock\S32K1xx\clock_S32K1xx.c)(0x5C3D8D1B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\clock_s32k1xx.o --omf_browse .\objects\clock_s32k1xx.crf --depend .\objects\clock_s32k1xx.d)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (..\drivers\src\clock\S32K1xx\sim_hw_access.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\drivers\src\clock\S32K1xx\scg_hw_access.h)(0x5955F2D2)
+I (..\drivers\src\clock\S32K1xx\pcc_hw_access.h)(0x5955F2D2)
+I (..\drivers\src\clock\S32K1xx\pmc_hw_access.h)(0x5955F2D2)
+I (..\drivers\src\clock\S32K1xx\smc_hw_access.h)(0x5955F2D2)
+I (..\drivers\inc\clock_manager.h)(0x5C0E0FA8)
+I (..\devices\status.h)(0x5955F2D2)
+I (..\drivers\inc\../src/clock/S32K1xx/clock_S32K1xx.h)(0x5955F2D2)
+I (..\user\s32k.h)(0x5C186C84)
+I (..\user\s32k_conf.h)(0x5C1B38E7)
+I (..\drivers\inc\interrupt_manager.h)(0x5955F2D2)
+I (..\drivers\src\pins\pins_gpio_hw_access.h)(0x5955F2D2)
+I (..\drivers\inc\pins_driver.h)(0x5955F2D2)
+I (..\drivers\src\pins\pins_port_hw_access.h)(0x5C0E0A50)
+I (..\pal\osif\osif.h)(0x598CA364)
+I (..\drivers\inc\lpuart_driver.h)(0x5C0DD305)
+I (..\devices\callbacks.h)(0x5955F2D2)
+I (..\drivers\src\lpuart\lpuart_hw_access.h)(0x5C171688)
+I (..\user\clockMan1.h)(0x5C1B3A31)
+I (..\user\pin_mux.h)(0x5C1068B8)
+I (..\user\uart.h)(0x5C2DB237)
+I (..\user\I2C.h)(0x5C18575F)
+I (..\user\lpi2c1.h)(0x5C1856E2)
+I (..\drivers\inc\lpi2c_driver.h)(0x5C1764E2)
+I (..\drivers\inc\edma_driver.h)(0x5955F2D2)
+I (..\user\fly_can.h)(0x5C22E382)
+I (..\user\canCom1.h)(0x5C22D950)
+I (..\user\dmaController1.h)(0x5C1B12C5)
+I (..\user\Cpu.h)(0x5C1B12E7)
+I (..\drivers\inc\csec_driver.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\drivers\inc\flexcan_driver.h)(0x5C2D77C2)
+F (..\drivers\src\interrupt\interrupt_manager.c)(0x5C10C9C7)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\interrupt_manager.o --omf_browse .\objects\interrupt_manager.crf --depend .\objects\interrupt_manager.d)
+I (..\drivers\inc\interrupt_manager.h)(0x5955F2D2)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+F (..\drivers\src\pins\pins_driver.c)(0x5955F2D2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\pins_driver.o --omf_browse .\objects\pins_driver.crf --depend .\objects\pins_driver.d)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (..\drivers\src\pins\pins_gpio_hw_access.h)(0x5955F2D2)
+I (..\drivers\inc\pins_driver.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\devices\status.h)(0x5955F2D2)
+I (..\drivers\src\pins\pins_port_hw_access.h)(0x5C0E0A50)
+F (..\drivers\src\pins\pins_port_hw_access.c)(0x5C16F943)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\pins_port_hw_access.o --omf_browse .\objects\pins_port_hw_access.crf --depend .\objects\pins_port_hw_access.d)
+I (..\drivers\src\pins\pins_port_hw_access.h)(0x5C0E0A50)
+I (..\drivers\inc\pins_driver.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (..\devices\status.h)(0x5955F2D2)
+F (..\drivers\src\lpuart\lpuart_driver.c)(0x5C2DBF06)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\lpuart_driver.o --omf_browse .\objects\lpuart_driver.crf --depend .\objects\lpuart_driver.d)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (..\pal\osif\osif.h)(0x598CA364)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\devices\status.h)(0x5955F2D2)
+I (..\drivers\src\lpuart\lpuart_hw_access.h)(0x5C171688)
+I (..\drivers\inc\lpuart_driver.h)(0x5C0DD305)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (..\drivers\inc\interrupt_manager.h)(0x5955F2D2)
+I (..\devices\callbacks.h)(0x5955F2D2)
+I (..\drivers\src\lpuart\lpuart_irq.h)(0x5955F2D2)
+I (..\drivers\inc\clock_manager.h)(0x5C0E0FA8)
+I (..\drivers\inc\../src/clock/S32K1xx/clock_S32K1xx.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+F (..\drivers\src\lpuart\lpuart_hw_access.c)(0x5C10D20D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\lpuart_hw_access.o --omf_browse .\objects\lpuart_hw_access.crf --depend .\objects\lpuart_hw_access.d)
+I (..\drivers\src\lpuart\lpuart_hw_access.h)(0x5C171688)
+I (..\drivers\inc\lpuart_driver.h)(0x5C0DD305)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (..\devices\status.h)(0x5955F2D2)
+I (..\pal\osif\osif.h)(0x598CA364)
+I (..\drivers\inc\interrupt_manager.h)(0x5955F2D2)
+I (..\devices\callbacks.h)(0x5955F2D2)
+F (..\pal\osif\osif_baremetal.c)(0x5C10C309)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\osif_baremetal.o --omf_browse .\objects\osif_baremetal.crf --depend .\objects\osif_baremetal.d)
+I (..\pal\osif\osif.h)(0x598CA364)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\devices\status.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (..\drivers\inc\interrupt_manager.h)(0x5955F2D2)
+I (..\drivers\inc\clock_manager.h)(0x5C0E0FA8)
+I (..\drivers\inc\../src/clock/S32K1xx/clock_S32K1xx.h)(0x5955F2D2)
+F (..\drivers\src\lpuart\lpuart_irq.c)(0x5C18A892)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\lpuart_irq.o --omf_browse .\objects\lpuart_irq.crf --depend .\objects\lpuart_irq.d)
+I (..\drivers\src\lpuart\lpuart_irq.h)(0x5955F2D2)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (..\drivers\inc\interrupt_manager.h)(0x5955F2D2)
+F (..\drivers\src\edma\edma_driver.c)(0x5955F2D2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\edma_driver.o --omf_browse .\objects\edma_driver.crf --depend .\objects\edma_driver.d)
+I (..\drivers\src\edma\edma_irq.h)(0x5955F2D2)
+I (..\drivers\src\edma\edma_hw_access.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (..\drivers\inc\edma_driver.h)(0x5955F2D2)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (..\devices\status.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\drivers\inc\clock_manager.h)(0x5C0E0FA8)
+I (..\drivers\inc\../src/clock/S32K1xx/clock_S32K1xx.h)(0x5955F2D2)
+I (..\drivers\inc\interrupt_manager.h)(0x5955F2D2)
+F (..\drivers\src\edma\edma_hw_access.c)(0x5955F2D2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\edma_hw_access.o --omf_browse .\objects\edma_hw_access.crf --depend .\objects\edma_hw_access.d)
+I (..\drivers\src\edma\edma_hw_access.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (..\drivers\inc\edma_driver.h)(0x5955F2D2)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (..\devices\status.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+F (..\drivers\src\edma\edma_irq.c)(0x5955F2D2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\edma_irq.o --omf_browse .\objects\edma_irq.crf --depend .\objects\edma_irq.d)
+I (..\drivers\src\edma\edma_irq.h)(0x5955F2D2)
+I (..\drivers\src\edma\edma_hw_access.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (..\drivers\inc\edma_driver.h)(0x5955F2D2)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (..\devices\status.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+F (..\drivers\src\lpi2c\lpi2c_driver.c)(0x5C18A9BA)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\lpi2c_driver.o --omf_browse .\objects\lpi2c_driver.crf --depend .\objects\lpi2c_driver.d)
+I (..\drivers\inc\lpi2c_driver.h)(0x5C1764E2)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (..\drivers\inc\interrupt_manager.h)(0x5955F2D2)
+I (..\devices\status.h)(0x5955F2D2)
+I (..\drivers\inc\edma_driver.h)(0x5955F2D2)
+I (..\pal\osif\osif.h)(0x598CA364)
+I (..\drivers\src\lpi2c\lpi2c_hw_access.h)(0x5C17541C)
+I (..\drivers\inc\clock_manager.h)(0x5C0E0FA8)
+I (..\drivers\inc\../src/clock/S32K1xx/clock_S32K1xx.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\user\lpi2c_irq.h)(0x5C176538)
+F (..\drivers\src\lpi2c\lpi2c_hw_access.c)(0x5C11C8BE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\lpi2c_hw_access.o --omf_browse .\objects\lpi2c_hw_access.crf --depend .\objects\lpi2c_hw_access.d)
+I (..\drivers\src\lpi2c\lpi2c_hw_access.h)(0x5C17541C)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (..\drivers\inc\lpi2c_driver.h)(0x5C1764E2)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (..\drivers\inc\interrupt_manager.h)(0x5955F2D2)
+I (..\devices\status.h)(0x5955F2D2)
+I (..\drivers\inc\edma_driver.h)(0x5955F2D2)
+I (..\pal\osif\osif.h)(0x598CA364)
+F (..\drivers\src\lpi2c\lpi2c_irq.c)(0x5C18A9BA)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\lpi2c_irq.o --omf_browse .\objects\lpi2c_irq.crf --depend .\objects\lpi2c_irq.d)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (..\drivers\inc\lpi2c_driver.h)(0x5C1764E2)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\drivers\inc\interrupt_manager.h)(0x5955F2D2)
+I (..\devices\status.h)(0x5955F2D2)
+I (..\drivers\inc\edma_driver.h)(0x5955F2D2)
+I (..\pal\osif\osif.h)(0x598CA364)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\user\lpi2c_irq.h)(0x5C176538)
+F (..\drivers\src\flexcan\flexcan_driver.c)(0x5C22E17E)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\flexcan_driver.o --omf_browse .\objects\flexcan_driver.crf --depend .\objects\flexcan_driver.d)
+I (D:\keil5\ARM\ARMCC\include\assert.h)(0x599EDB3A)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\drivers\src\flexcan\flexcan_hw_access.h)(0x5955F2D2)
+I (..\drivers\inc\flexcan_driver.h)(0x5C2D77C2)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (..\pal\osif\osif.h)(0x598CA364)
+I (..\devices\status.h)(0x5955F2D2)
+I (..\drivers\inc\edma_driver.h)(0x5955F2D2)
+I (..\drivers\src\flexcan\flexcan_irq.h)(0x5955F2D2)
+I (..\drivers\inc\interrupt_manager.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+F (..\drivers\src\flexcan\flexcan_hw_access.c)(0x5C2475AF)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\flexcan_hw_access.o --omf_browse .\objects\flexcan_hw_access.crf --depend .\objects\flexcan_hw_access.d)
+I (..\drivers\src\flexcan\flexcan_hw_access.h)(0x5955F2D2)
+I (..\drivers\inc\flexcan_driver.h)(0x5C2D77C2)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (..\pal\osif\osif.h)(0x598CA364)
+I (..\devices\status.h)(0x5955F2D2)
+I (..\drivers\inc\edma_driver.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+F (..\drivers\src\flexcan\flexcan_irq.c)(0x5955F2D2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\flexcan_irq.o --omf_browse .\objects\flexcan_irq.crf --depend .\objects\flexcan_irq.d)
+I (..\drivers\src\flexcan\flexcan_irq.h)(0x5955F2D2)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+F (..\user\clockMan1.c)(0x5C1CB926)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\clockman1.o --omf_browse .\objects\clockman1.crf --depend .\objects\clockman1.d)
+I (..\user\clockMan1.h)(0x5C1B3A31)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\user\s32k_conf.h)(0x5C1B38E7)
+I (..\drivers\inc\interrupt_manager.h)(0x5955F2D2)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (..\drivers\inc\clock_manager.h)(0x5C0E0FA8)
+I (..\devices\status.h)(0x5955F2D2)
+I (..\drivers\inc\../src/clock/S32K1xx/clock_S32K1xx.h)(0x5955F2D2)
+I (..\drivers\src\pins\pins_gpio_hw_access.h)(0x5955F2D2)
+I (..\drivers\inc\pins_driver.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\drivers\src\pins\pins_port_hw_access.h)(0x5C0E0A50)
+I (..\user\s32k.h)(0x5C186C84)
+I (..\drivers\inc\lpuart_driver.h)(0x5C0DD305)
+I (..\pal\osif\osif.h)(0x598CA364)
+I (..\devices\callbacks.h)(0x5955F2D2)
+I (..\drivers\src\lpuart\lpuart_hw_access.h)(0x5C171688)
+I (..\user\pin_mux.h)(0x5C1068B8)
+I (..\user\uart.h)(0x5C2DB237)
+I (..\user\I2C.h)(0x5C18575F)
+I (..\user\lpi2c1.h)(0x5C1856E2)
+I (..\drivers\inc\lpi2c_driver.h)(0x5C1764E2)
+I (..\drivers\inc\edma_driver.h)(0x5955F2D2)
+I (..\user\fly_can.h)(0x5C22E382)
+I (..\user\canCom1.h)(0x5C22D950)
+I (..\user\dmaController1.h)(0x5C1B12C5)
+I (..\user\Cpu.h)(0x5C1B12E7)
+I (..\drivers\inc\csec_driver.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\drivers\inc\flexcan_driver.h)(0x5C2D77C2)
+F (..\user\pin_mux.c)(0x5C1B3E63)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\pin_mux.o --omf_browse .\objects\pin_mux.crf --depend .\objects\pin_mux.d)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (..\user\pin_mux.h)(0x5C1068B8)
+I (..\drivers\inc\pins_driver.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\devices\status.h)(0x5955F2D2)
+F (..\user\uart.c)(0x5C2DB4AD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (..\user\uart.h)(0x5C2DB237)
+I (..\user\s32k_conf.h)(0x5C1B38E7)
+I (..\drivers\inc\interrupt_manager.h)(0x5955F2D2)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (..\drivers\inc\clock_manager.h)(0x5C0E0FA8)
+I (..\devices\status.h)(0x5955F2D2)
+I (..\drivers\inc\../src/clock/S32K1xx/clock_S32K1xx.h)(0x5955F2D2)
+I (..\drivers\src\pins\pins_gpio_hw_access.h)(0x5955F2D2)
+I (..\drivers\inc\pins_driver.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\drivers\src\pins\pins_port_hw_access.h)(0x5C0E0A50)
+I (..\user\s32k.h)(0x5C186C84)
+I (..\drivers\inc\lpuart_driver.h)(0x5C0DD305)
+I (..\pal\osif\osif.h)(0x598CA364)
+I (..\devices\callbacks.h)(0x5955F2D2)
+I (..\drivers\src\lpuart\lpuart_hw_access.h)(0x5C171688)
+I (..\user\clockMan1.h)(0x5C1B3A31)
+I (..\user\pin_mux.h)(0x5C1068B8)
+I (..\user\I2C.h)(0x5C18575F)
+I (..\user\lpi2c1.h)(0x5C1856E2)
+I (..\drivers\inc\lpi2c_driver.h)(0x5C1764E2)
+I (..\drivers\inc\edma_driver.h)(0x5955F2D2)
+I (..\user\fly_can.h)(0x5C22E382)
+I (..\user\canCom1.h)(0x5C22D950)
+I (..\user\dmaController1.h)(0x5C1B12C5)
+I (..\user\Cpu.h)(0x5C1B12E7)
+I (..\drivers\inc\csec_driver.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\drivers\inc\flexcan_driver.h)(0x5C2D77C2)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+F (..\user\lpi2c1.c)(0x5C18A9ED)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\lpi2c1.o --omf_browse .\objects\lpi2c1.crf --depend .\objects\lpi2c1.d)
+I (..\user\lpi2c1.h)(0x5C1856E2)
+I (..\user\clockMan1.h)(0x5C1B3A31)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\user\s32k_conf.h)(0x5C1B38E7)
+I (..\drivers\inc\interrupt_manager.h)(0x5955F2D2)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (..\drivers\inc\clock_manager.h)(0x5C0E0FA8)
+I (..\devices\status.h)(0x5955F2D2)
+I (..\drivers\inc\../src/clock/S32K1xx/clock_S32K1xx.h)(0x5955F2D2)
+I (..\drivers\src\pins\pins_gpio_hw_access.h)(0x5955F2D2)
+I (..\drivers\inc\pins_driver.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\drivers\src\pins\pins_port_hw_access.h)(0x5C0E0A50)
+I (..\user\s32k.h)(0x5C186C84)
+I (..\drivers\inc\lpuart_driver.h)(0x5C0DD305)
+I (..\pal\osif\osif.h)(0x598CA364)
+I (..\devices\callbacks.h)(0x5955F2D2)
+I (..\drivers\src\lpuart\lpuart_hw_access.h)(0x5C171688)
+I (..\user\pin_mux.h)(0x5C1068B8)
+I (..\user\uart.h)(0x5C2DB237)
+I (..\user\I2C.h)(0x5C18575F)
+I (..\drivers\inc\lpi2c_driver.h)(0x5C1764E2)
+I (..\drivers\inc\edma_driver.h)(0x5955F2D2)
+I (..\user\fly_can.h)(0x5C22E382)
+I (..\user\canCom1.h)(0x5C22D950)
+I (..\user\dmaController1.h)(0x5C1B12C5)
+I (..\user\Cpu.h)(0x5C1B12E7)
+I (..\drivers\inc\csec_driver.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\drivers\inc\flexcan_driver.h)(0x5C2D77C2)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+F (..\user\I2C.c)(0x5C18A9BA)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\i2c.o --omf_browse .\objects\i2c.crf --depend .\objects\i2c.d)
+I (..\user\I2C.h)(0x5C18575F)
+I (..\user\lpi2c1.h)(0x5C1856E2)
+I (..\user\clockMan1.h)(0x5C1B3A31)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\user\s32k_conf.h)(0x5C1B38E7)
+I (..\drivers\inc\interrupt_manager.h)(0x5955F2D2)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (..\drivers\inc\clock_manager.h)(0x5C0E0FA8)
+I (..\devices\status.h)(0x5955F2D2)
+I (..\drivers\inc\../src/clock/S32K1xx/clock_S32K1xx.h)(0x5955F2D2)
+I (..\drivers\src\pins\pins_gpio_hw_access.h)(0x5955F2D2)
+I (..\drivers\inc\pins_driver.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\drivers\src\pins\pins_port_hw_access.h)(0x5C0E0A50)
+I (..\user\s32k.h)(0x5C186C84)
+I (..\drivers\inc\lpuart_driver.h)(0x5C0DD305)
+I (..\pal\osif\osif.h)(0x598CA364)
+I (..\devices\callbacks.h)(0x5955F2D2)
+I (..\drivers\src\lpuart\lpuart_hw_access.h)(0x5C171688)
+I (..\user\pin_mux.h)(0x5C1068B8)
+I (..\user\uart.h)(0x5C2DB237)
+I (..\user\fly_can.h)(0x5C22E382)
+I (..\user\canCom1.h)(0x5C22D950)
+I (..\user\dmaController1.h)(0x5C1B12C5)
+I (..\user\Cpu.h)(0x5C1B12E7)
+I (..\drivers\inc\csec_driver.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\drivers\inc\edma_driver.h)(0x5955F2D2)
+I (..\drivers\inc\flexcan_driver.h)(0x5C2D77C2)
+I (..\drivers\inc\lpi2c_driver.h)(0x5C1764E2)
+F (..\user\Androidcom.c)(0x5C120431)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\androidcom.o --omf_browse .\objects\androidcom.crf --depend .\objects\androidcom.d)
+I (..\user\Androidcom.h)(0x5C1203FC)
+F (..\user\canCom1.c)(0x5C22E5BC)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\cancom1.o --omf_browse .\objects\cancom1.crf --depend .\objects\cancom1.d)
+I (..\user\canCom1.h)(0x5C22D950)
+I (..\user\clockMan1.h)(0x5C1B3A31)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\user\s32k_conf.h)(0x5C1B38E7)
+I (..\drivers\inc\interrupt_manager.h)(0x5955F2D2)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (..\drivers\inc\clock_manager.h)(0x5C0E0FA8)
+I (..\devices\status.h)(0x5955F2D2)
+I (..\drivers\inc\../src/clock/S32K1xx/clock_S32K1xx.h)(0x5955F2D2)
+I (..\drivers\src\pins\pins_gpio_hw_access.h)(0x5955F2D2)
+I (..\drivers\inc\pins_driver.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\drivers\src\pins\pins_port_hw_access.h)(0x5C0E0A50)
+I (..\user\s32k.h)(0x5C186C84)
+I (..\drivers\inc\lpuart_driver.h)(0x5C0DD305)
+I (..\pal\osif\osif.h)(0x598CA364)
+I (..\devices\callbacks.h)(0x5955F2D2)
+I (..\drivers\src\lpuart\lpuart_hw_access.h)(0x5C171688)
+I (..\user\pin_mux.h)(0x5C1068B8)
+I (..\user\uart.h)(0x5C2DB237)
+I (..\user\I2C.h)(0x5C18575F)
+I (..\user\lpi2c1.h)(0x5C1856E2)
+I (..\drivers\inc\lpi2c_driver.h)(0x5C1764E2)
+I (..\drivers\inc\edma_driver.h)(0x5955F2D2)
+I (..\user\fly_can.h)(0x5C22E382)
+I (..\drivers\inc\flexcan_driver.h)(0x5C2D77C2)
+I (..\user\dmaController1.h)(0x5C1B12C5)
+I (..\user\Cpu.h)(0x5C1B12E7)
+I (..\drivers\inc\csec_driver.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+F (..\user\dmaController1.c)(0x5C1B14A1)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\dmacontroller1.o --omf_browse .\objects\dmacontroller1.crf --depend .\objects\dmacontroller1.d)
+I (..\user\dmaController1.h)(0x5C1B12C5)
+I (..\user\clockMan1.h)(0x5C1B3A31)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\user\s32k_conf.h)(0x5C1B38E7)
+I (..\drivers\inc\interrupt_manager.h)(0x5955F2D2)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (..\drivers\inc\clock_manager.h)(0x5C0E0FA8)
+I (..\devices\status.h)(0x5955F2D2)
+I (..\drivers\inc\../src/clock/S32K1xx/clock_S32K1xx.h)(0x5955F2D2)
+I (..\drivers\src\pins\pins_gpio_hw_access.h)(0x5955F2D2)
+I (..\drivers\inc\pins_driver.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\drivers\src\pins\pins_port_hw_access.h)(0x5C0E0A50)
+I (..\user\s32k.h)(0x5C186C84)
+I (..\drivers\inc\lpuart_driver.h)(0x5C0DD305)
+I (..\pal\osif\osif.h)(0x598CA364)
+I (..\devices\callbacks.h)(0x5955F2D2)
+I (..\drivers\src\lpuart\lpuart_hw_access.h)(0x5C171688)
+I (..\user\pin_mux.h)(0x5C1068B8)
+I (..\user\uart.h)(0x5C2DB237)
+I (..\user\I2C.h)(0x5C18575F)
+I (..\user\lpi2c1.h)(0x5C1856E2)
+I (..\drivers\inc\lpi2c_driver.h)(0x5C1764E2)
+I (..\drivers\inc\edma_driver.h)(0x5955F2D2)
+I (..\user\fly_can.h)(0x5C22E382)
+I (..\user\canCom1.h)(0x5C22D950)
+I (..\user\Cpu.h)(0x5C1B12E7)
+I (..\drivers\inc\csec_driver.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\drivers\inc\flexcan_driver.h)(0x5C2D77C2)
+F (..\user\Cpu.c)(0x5C1B0E6E)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\cpu.o --omf_browse .\objects\cpu.crf --depend .\objects\cpu.d)
+I (..\user\Cpu.h)(0x5C1B12E7)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (..\drivers\inc\clock_manager.h)(0x5C0E0FA8)
+I (..\devices\status.h)(0x5955F2D2)
+I (..\drivers\inc\../src/clock/S32K1xx/clock_S32K1xx.h)(0x5955F2D2)
+I (..\drivers\inc\interrupt_manager.h)(0x5955F2D2)
+I (..\pal\osif\osif.h)(0x598CA364)
+I (..\drivers\inc\csec_driver.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\drivers\inc\edma_driver.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\drivers\inc\flexcan_driver.h)(0x5C2D77C2)
+I (..\drivers\inc\lpi2c_driver.h)(0x5C1764E2)
+I (..\drivers\inc\lpuart_driver.h)(0x5C0DD305)
+I (..\devices\callbacks.h)(0x5955F2D2)
+I (..\user\pin_mux.h)(0x5C1068B8)
+I (..\drivers\inc\pins_driver.h)(0x5955F2D2)
+I (..\user\clockMan1.h)(0x5C1B3A31)
+I (..\user\s32k_conf.h)(0x5C1B38E7)
+I (..\drivers\src\pins\pins_gpio_hw_access.h)(0x5955F2D2)
+I (..\drivers\src\pins\pins_port_hw_access.h)(0x5C0E0A50)
+I (..\user\s32k.h)(0x5C186C84)
+I (..\drivers\src\lpuart\lpuart_hw_access.h)(0x5C171688)
+I (..\user\uart.h)(0x5C2DB237)
+I (..\user\I2C.h)(0x5C18575F)
+I (..\user\lpi2c1.h)(0x5C1856E2)
+I (..\user\fly_can.h)(0x5C22E382)
+I (..\user\canCom1.h)(0x5C22D950)
+I (..\user\dmaController1.h)(0x5C1B12C5)
+F (..\user\fly_can.c)(0x5C27165D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\fly_can.o --omf_browse .\objects\fly_can.crf --depend .\objects\fly_can.d)
+I (..\user\fly_can.h)(0x5C22E382)
+I (..\user\canCom1.h)(0x5C22D950)
+I (..\user\clockMan1.h)(0x5C1B3A31)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\user\s32k_conf.h)(0x5C1B38E7)
+I (..\drivers\inc\interrupt_manager.h)(0x5955F2D2)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (..\drivers\inc\clock_manager.h)(0x5C0E0FA8)
+I (..\devices\status.h)(0x5955F2D2)
+I (..\drivers\inc\../src/clock/S32K1xx/clock_S32K1xx.h)(0x5955F2D2)
+I (..\drivers\src\pins\pins_gpio_hw_access.h)(0x5955F2D2)
+I (..\drivers\inc\pins_driver.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\drivers\src\pins\pins_port_hw_access.h)(0x5C0E0A50)
+I (..\user\s32k.h)(0x5C186C84)
+I (..\drivers\inc\lpuart_driver.h)(0x5C0DD305)
+I (..\pal\osif\osif.h)(0x598CA364)
+I (..\devices\callbacks.h)(0x5955F2D2)
+I (..\drivers\src\lpuart\lpuart_hw_access.h)(0x5C171688)
+I (..\user\pin_mux.h)(0x5C1068B8)
+I (..\user\uart.h)(0x5C2DB237)
+I (..\user\I2C.h)(0x5C18575F)
+I (..\user\lpi2c1.h)(0x5C1856E2)
+I (..\drivers\inc\lpi2c_driver.h)(0x5C1764E2)
+I (..\drivers\inc\edma_driver.h)(0x5955F2D2)
+I (..\user\dmaController1.h)(0x5C1B12C5)
+I (..\user\Cpu.h)(0x5C1B12E7)
+I (..\drivers\inc\csec_driver.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\drivers\inc\flexcan_driver.h)(0x5C2D77C2)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+F (..\user\TBT.c)(0x5C2DBE0D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\devices -I ..\devices\common -I ..\devices\S32K144 -I ..\devices\S32K144\include -I ..\devices\S32K144\startup -I ..\user -I ..\drivers\src\clock\S32K1xx -I ..\drivers\inc -I ..\drivers\src\pins -I ..\drivers\src\lpuart -I ..\pal\osif -I ..\user -I ..\drivers\src\edma -I ..\drivers\src\lpi2c -I ..\drivers\src\flexcan-I.\RTE\_Target_1-ID:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil5\ARM\PACK\Keil\S32_SDK_DFP\1.1.0\platform\devices-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT-o .\objects\tbt.o --omf_browse .\objects\tbt.crf --depend .\objects\tbt.d)
+I (..\user\TBT.h)(0x5C2DBC52)
+I (..\user\s32k_conf.h)(0x5C1B38E7)
+I (..\drivers\inc\interrupt_manager.h)(0x5955F2D2)
+I (..\devices\device_registers.h)(0x5C0BA0B0)
+I (..\devices\common/s32_core_cm4.h)(0x596EAC8C)
+I (..\devices\S32K144/include/S32K144.h)(0x596EAC8C)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (..\devices\S32K144\startup\system_S32K144.h)(0x5955F2A0)
+I (..\devices\S32K144/include/S32K144_features.h)(0x5C10BD9C)
+I (..\devices\devassert.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+I (..\drivers\inc\clock_manager.h)(0x5C0E0FA8)
+I (..\devices\status.h)(0x5955F2D2)
+I (..\drivers\inc\../src/clock/S32K1xx/clock_S32K1xx.h)(0x5955F2D2)
+I (..\drivers\src\pins\pins_gpio_hw_access.h)(0x5955F2D2)
+I (..\drivers\inc\pins_driver.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\drivers\src\pins\pins_port_hw_access.h)(0x5C0E0A50)
+I (..\user\s32k.h)(0x5C186C84)
+I (..\drivers\inc\lpuart_driver.h)(0x5C0DD305)
+I (..\pal\osif\osif.h)(0x598CA364)
+I (..\devices\callbacks.h)(0x5955F2D2)
+I (..\drivers\src\lpuart\lpuart_hw_access.h)(0x5C171688)
+I (..\user\clockMan1.h)(0x5C1B3A31)
+I (..\user\pin_mux.h)(0x5C1068B8)
+I (..\user\uart.h)(0x5C2DB237)
+I (..\user\I2C.h)(0x5C18575F)
+I (..\user\lpi2c1.h)(0x5C1856E2)
+I (..\drivers\inc\lpi2c_driver.h)(0x5C1764E2)
+I (..\drivers\inc\edma_driver.h)(0x5955F2D2)
+I (..\user\fly_can.h)(0x5C22E382)
+I (..\user\canCom1.h)(0x5C22D950)
+I (..\user\dmaController1.h)(0x5C1B12C5)
+I (..\user\Cpu.h)(0x5C1B12E7)
+I (..\drivers\inc\csec_driver.h)(0x5955F2D2)
+I (D:\keil5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\drivers\inc\flexcan_driver.h)(0x5C2D77C2)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)

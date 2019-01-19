@@ -1,0 +1,13 @@
+.\objects\system_s32k144.o: ..\devices\S32K144\startup\system_S32K144.c
+.\objects\system_s32k144.o: ..\devices\device_registers.h
+.\objects\system_s32k144.o: ..\devices\common/s32_core_cm4.h
+.\objects\system_s32k144.o: ..\devices\S32K144/include/S32K144.h
+.\objects\system_s32k144.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\system_s32k144.o: D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h
+.\objects\system_s32k144.o: D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\system_s32k144.o: D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\system_s32k144.o: D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\system_s32k144.o: ..\devices\S32K144\startup\system_S32K144.h
+.\objects\system_s32k144.o: ..\devices\S32K144/include/S32K144_features.h
+.\objects\system_s32k144.o: ..\devices\devassert.h
+.\objects\system_s32k144.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdbool.h

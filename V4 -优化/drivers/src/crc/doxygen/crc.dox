@@ -1,0 +1,121 @@
+/*!
+@defgroup crc Cyclic Redundancy Check (CRC)
+@brief The S32 SDK provides Peripheral Drivers for the Cyclic Redundancy Check (CRC) module of S32 SDK devices. @n
+
+@details
+The cyclic redundancy check (CRC) module generates 16/32-bit CRC code for error detection.@n
+The CRC module provides a programmable polynomial, seed, and other parameters required to implement a 16-bit or 32-bit CRC standard.@n
+The 16/32-bit code is calculated for 32 bits of data at a time.@n
+*/
+/*!
+@defgroup crc_drv CRC Driver
+@ingroup crc
+
+# Basic Operations of CRC
+
+1. To initialize the CRC module, call CRC_DRV_Init() function and pass
+   the user configuration data structure to it.
+
+   This is example code to configure the CRC driver:
+
+~~~~~{.c}
+    #define INST_CRC1 (0U)
+
+    /* CRC-16-CCITT standard configuration as follows */
+    /* Configuration structure crc1_InitConfig0 */
+    const crc_user_config_t crc1_InitConfig0 = {
+        .crcWidth = CRC_BITS_16,
+        .seed = 0xFFFFU,
+        .polynomial = 0x1021U,
+        .writeTranspose = CRC_TRANSPOSE_NONE,
+        .readTranspose = CRC_TRANSPOSE_NONE,
+        .complementChecksum = false
+    };
+
+    /* KERMIT standard configuration as follows */
+    /* Configuration structure crc1_InitConfig1 */
+    const crc_user_config_t crc1_InitConfig1 = {
+        .crcWidth = CRC_BITS_16,
+        .seed = 0U,
+        .polynomial = 0x1021U,
+        .writeTranspose = CRC_TRANSPOSE_BITS,
+        .readTranspose = CRC_TRANSPOSE_BITS,
+        .complementChecksum = false
+    };
+
+    /* Initializes the CRC */
+    CRC_DRV_Init(INST_CRC1, &crc1_InitConfig0);
+~~~~~
+2. To configuration and operation CRC module:
+    Function CRC_DRV_Configure() shall be used to write user configuration to CRC
+    hardware module before starting operation by calling CRC_DRV_WriteData().
+    Finally, using CRC_DRV_GetCrcResult() function to get the result of CRC calculation.
+
+    This is example code to Configure and get CRC block:
+
+~~~~~{.c}
+    #define INST_CRC1 (0U)
+
+    uint8_t buffer[] = { 0x31, 0x32, 0x33, 0x34, 0x35, 0x36, 0x37, 0x38, 0x39, 0x30 };
+    uint32_t result;
+
+    /* Set the CRC configuration */
+    CRC_DRV_Configure(INST_CRC1, &crc1_InitConfig0);
+    /* Write data to the current CRC calculation */
+    CRC_DRV_WriteData(INST_CRC1, buffer, 10U);
+    /* Get result of CRC calculation (0x3218U) */
+    result = CRC_DRV_GetCrcResult(INST_CRC1);
+
+    /* Set the other CRC configuration */
+    CRC_DRV_Configure(INST_CRC1, &crc1_InitConfig1);
+    /* Write data to the current CRC calculation */
+    CRC_DRV_WriteData(INST_CRC1, buffer, 10U);
+    /* Get result of CRC calculation (0x6B28U) */
+    result = CRC_DRV_GetCrcResult(INST_CRC1);
+
+    /* De-init */
+    CRC_DRV_Deinit(INST_CRC1);
+~~~~~
+
+3. To Get result of 32-bit data then call CRC_DRV_GetCrc32() function.
+~~~~~{.c}
+    #define INST_CRC1 (0U)
+
+    uint32_t seed = 0xFFFFFFFFU;
+	uint32_t data = 0x12345678U;
+    uint32_t result;
+
+    /* Get result of 32-bit data */
+    result = CRC_DRV_GetCrc32(INST_CRC1, data, true, seed);
+~~~~~
+
+4. To Get result of 16-bit data then call CRC_DRV_GetCrc16() function.
+~~~~~{.c}
+    #define INST_CRC1 (0U)
+
+    uint32_t seed = 0xFFFFU;
+	uint16_t data = 0x1234U;
+    uint32_t result;
+
+    /* Get result of 16-bit data */
+    result = CRC_DRV_GetCrc16(INST_CRC1, data, true, seed);
+~~~~~
+
+5. To Get current configuration of the CRC module, just call CRC_DRV_GetConfig() function.
+~~~~~{.c}
+    #define INST_CRC1 (0U)
+	crc_user_config_t crc1_InitConfig0;
+
+    /* Get current configuration of the CRC module */
+    CRC_DRV_GetConfig(INST_CRC1, &crc1_InitConfig0);
+~~~~~
+
+6. To Get default configuration of the CRC module, just call CRC_DRV_GetDefaultConfig() function.
+~~~~~{.c}
+    #define INST_CRC1 (0U)
+	crc_user_config_t crc1_InitConfig0;
+
+    /* Get default configuration of the CRC module */
+    CRC_DRV_GetDefaultConfig(INST_CRC1, &crc1_InitConfig0);
+~~~~~
+*/

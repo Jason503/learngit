@@ -1,0 +1,15 @@
+.\objects\lpuart_irq.o: ..\drivers\src\lpuart\lpuart_irq.c
+.\objects\lpuart_irq.o: ..\drivers\src\lpuart\lpuart_irq.h
+.\objects\lpuart_irq.o: ..\devices\device_registers.h
+.\objects\lpuart_irq.o: ..\devices\common/s32_core_cm4.h
+.\objects\lpuart_irq.o: ..\devices\S32K144/include/S32K144.h
+.\objects\lpuart_irq.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\lpuart_irq.o: D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h
+.\objects\lpuart_irq.o: D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\lpuart_irq.o: D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\lpuart_irq.o: D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\lpuart_irq.o: ..\devices\S32K144\startup\system_S32K144.h
+.\objects\lpuart_irq.o: ..\devices\S32K144/include/S32K144_features.h
+.\objects\lpuart_irq.o: ..\devices\devassert.h
+.\objects\lpuart_irq.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\lpuart_irq.o: ..\drivers\inc\interrupt_manager.h

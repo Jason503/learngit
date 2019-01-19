@@ -1,0 +1,14 @@
+.\objects\flexcan_irq.o: ..\drivers\src\flexcan\flexcan_irq.c
+.\objects\flexcan_irq.o: ..\drivers\src\flexcan\flexcan_irq.h
+.\objects\flexcan_irq.o: ..\devices\device_registers.h
+.\objects\flexcan_irq.o: ..\devices\common/s32_core_cm4.h
+.\objects\flexcan_irq.o: ..\devices\S32K144/include/S32K144.h
+.\objects\flexcan_irq.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\flexcan_irq.o: D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h
+.\objects\flexcan_irq.o: D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\flexcan_irq.o: D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\flexcan_irq.o: D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\flexcan_irq.o: ..\devices\S32K144\startup\system_S32K144.h
+.\objects\flexcan_irq.o: ..\devices\S32K144/include/S32K144_features.h
+.\objects\flexcan_irq.o: ..\devices\devassert.h
+.\objects\flexcan_irq.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdbool.h

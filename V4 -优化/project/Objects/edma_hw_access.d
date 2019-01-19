@@ -1,0 +1,17 @@
+.\objects\edma_hw_access.o: ..\drivers\src\edma\edma_hw_access.c
+.\objects\edma_hw_access.o: ..\drivers\src\edma\edma_hw_access.h
+.\objects\edma_hw_access.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\edma_hw_access.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\edma_hw_access.o: ..\drivers\inc\edma_driver.h
+.\objects\edma_hw_access.o: ..\devices\device_registers.h
+.\objects\edma_hw_access.o: ..\devices\common/s32_core_cm4.h
+.\objects\edma_hw_access.o: ..\devices\S32K144/include/S32K144.h
+.\objects\edma_hw_access.o: D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h
+.\objects\edma_hw_access.o: D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\edma_hw_access.o: D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\edma_hw_access.o: D:\keil5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\edma_hw_access.o: ..\devices\S32K144\startup\system_S32K144.h
+.\objects\edma_hw_access.o: ..\devices\S32K144/include/S32K144_features.h
+.\objects\edma_hw_access.o: ..\devices\devassert.h
+.\objects\edma_hw_access.o: ..\devices\status.h
+.\objects\edma_hw_access.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
